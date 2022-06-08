@@ -1,5 +1,0 @@
-module ca.ciccc.main{
-    requires ca.ciccc.wmad202.assignment1;
-    requires ca.ciccc.wmad202.assignment2;
-    requires ca.ciccc.wmad202.assignment3;
-}
