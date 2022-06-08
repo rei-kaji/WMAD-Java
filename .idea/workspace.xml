@@ -2,32 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f67a4e67-6ce1-4268-be33-90570695f836" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/wmad202-assignment10/src/ca/ciccc/wmad202/assignment10/main/Assignment10Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-assignment10/src/ca/ciccc/wmad202/assignment10/question1/Question1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-assignment10/src/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-assignment4/src/ca/ciccc/wmad202/assignment4/main/Assignment4Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-assignment4/src/ca/ciccc/wmad202/assignment4/question1/Question1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-assignment4/src/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-assignment5/src/ca/ciccc/wmad202/assignment5/main/Assignment5Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-assignment5/src/ca/ciccc/wmad202/assignment5/question1/Question1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-assignment5/src/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-assignment6/src/ca/ciccc/wmad202/assignment6/main/Assignment6Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-assignment6/src/ca/ciccc/wmad202/assignment6/question1/Question1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-assignment6/src/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-assignment7/src/ca/ciccc/wmad202/assignment7/main/Assignment7Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-assignment7/src/ca/ciccc/wmad202/assignment7/question1/Question1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-assignment7/src/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-assignment8/src/ca/ciccc/wmad202/assignment8/main/Assignment8Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-assignment8/src/ca/ciccc/wmad202/assignment8/question1/Question1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-assignment8/src/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-assignment9/src/ca/ciccc/wmad202/assignment9/main/Assignment9Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-assignment9/src/ca/ciccc/wmad202/assignment9/question1/Question1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-assignment9/src/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wmad202-lecture-code/src/ca/ciccc/wmad202/lecture/main/LectureCodeDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wmad202-lecture-code/src/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wmad202-2022/src/ca/ciccc/main/WMAD202Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-2022/src/ca/ciccc/main/WMAD202Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wmad202-2022/src/module-info.jave" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-2022/src/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wmad202-2022/wmad202-2022.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-2022/wmad202-2022.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wmad202-assignment2/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-assignment2/src/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
