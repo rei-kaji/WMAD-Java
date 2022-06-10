@@ -9,4 +9,5 @@ module ca.ciccc.main{
     requires ca.ciccc.wmad202.assignment8;
     requires ca.ciccc.wmad202.assignment9;
     requires ca.ciccc.wmad202.assignment10;
+    requires ca.ciccc.wmad202.lecture.main;
 }
