@@ -13,7 +13,7 @@ public class Question6 {
         System.out.println("Question6");
         Scanner scanner = new Scanner(System.in);
         ArrayList<Integer> numberList = new ArrayList<>();
-        System.out.println("Please enter the number: ");
+        System.out.println("Please enter the number for making ArrayList: ");
         int number1 = scanner.nextInt();
         numberList.add(number1);
 
