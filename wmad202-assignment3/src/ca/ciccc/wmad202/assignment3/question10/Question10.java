@@ -46,81 +46,115 @@ public class Question10 {
         ArrayList<String> nineExponent = new ArrayList<>();
         ArrayList<String> tenExponent = new ArrayList<>();
 
+        String polynomialFactors = firstSinglePolynomialFactors + "+" + secondSinglePolynomialFactors;
+
+        // delete space
+        polynomialFactors = polynomialFactors.replaceAll(" ","");
+
+        System.out.println("polynomialFactors: " + polynomialFactors);
+
         // Assign each value by how many exponent they have.
-        while(firstSinglePolynomialFactors.contains("x")){
-            int positionNumber = firstSinglePolynomialFactors.indexOf("^");
+        while(polynomialFactors.contains("x")){
+            int positionNumber = polynomialFactors.indexOf("^");
+
+            System.out.println("positionNumber: " + positionNumber);
 
             while(positionNumber!=-1){
-                int exponent = firstSinglePolynomialFactors.charAt(positionNumber + 1);
-                System.out.println("positionNumber " + (positionNumber+1));
+                int exponent = Integer.parseInt(polynomialFactors.substring(positionNumber +1,positionNumber +2));
                 System.out.println("Exponent: " + exponent);
-                String factNumber = String.valueOf(firstSinglePolynomialFactors.charAt(positionNumber - 2));
-                String operator = String.valueOf(firstSinglePolynomialFactors.charAt(positionNumber - 3));
+                String factNumber = String.valueOf(polynomialFactors.charAt(positionNumber - 3));
+                String operator = String.valueOf(polynomialFactors.charAt(0));
+                System.out.println("factNumber: " + factNumber);
+                System.out.println("operator: " + operator);
                 String deleteString;
-                if(operator.matches(".*('+'|'-').*")){
+                if(!operator.equals(factNumber)){
                     factNumber = operator + factNumber;
-                    deleteString = firstSinglePolynomialFactors.substring(positionNumber - 3, positionNumber + 1);
-                    firstSinglePolynomialFactors = firstSinglePolynomialFactors.replace(deleteString,"");
+                    deleteString = polynomialFactors.substring(positionNumber - 4, positionNumber + 2);
                 }else{
-                    deleteString = firstSinglePolynomialFactors.substring(positionNumber - 2, positionNumber + 1);
-                    firstSinglePolynomialFactors = firstSinglePolynomialFactors.replace(deleteString,"");
+                    deleteString = polynomialFactors.substring(positionNumber - 3, positionNumber + 2);
                 }
+                System.out.println("deleteString: " + deleteString);
+                polynomialFactors = polynomialFactors.replace(deleteString,"");
+                System.out.println("polynomialFactors: " + polynomialFactors);
 
                 switch (exponent){
                     case 2:
+                        System.out.println("Add twoExponent: " + factNumber);
                         twoExponent.add(factNumber);
+                        break;
                     case 3:
+                        System.out.println("Add threeExponent: " + factNumber);
                         threeExponent.add(factNumber);
+                        break;
                     case 4:
+                        System.out.println("Add fourExponent: " + factNumber);
                         fourExponent.add(factNumber);
+                        break;
                     case 5:
+                        System.out.println("Add fiveExponent: " + factNumber);
                         fiveExponent.add(factNumber);
+                        break;
                     case 6:
+                        System.out.println("Add sixExponent: " + factNumber);
                         sixExponent.add(factNumber);
+                        break;
                     case 7:
+                        System.out.println("Add sevenExponent: " + factNumber);
                         sevenExponent.add(factNumber);
+                        break;
                     case 8:
+                        System.out.println("Add eightExponent: " + factNumber);
                         eightExponent.add(factNumber);
+                        break;
                     case 9:
+                        System.out.println("Add nineExponent: " + factNumber);
                         nineExponent.add(factNumber);
+                        break;
                     case 10:
+                        System.out.println("Add tenExponent: " + factNumber);
                         tenExponent.add(factNumber);
+                        break;
                 }
-                positionNumber = firstSinglePolynomialFactors.indexOf("^");
+                positionNumber = polynomialFactors.indexOf("^");
+                System.out.println("Line 119 positionNumber: " + positionNumber);
             }
         }
 
-        return "A";
+        return polynomialFactors;
 
 
     }
 
     public static void call(){
         Scanner scanner = new Scanner(System.in);
+
         System.out.println("Question10");
-        System.out.println("Please enter question number 1-3 to show result of question");
+        System.out.println("Please enter question number 1-4 to show result of question");
         int question = scanner.nextInt();
+
+        String firstSinglePolynomialFactors = "5*x^4 – 3*x^2 + 6";
+        String secondSinglePolynomialFactors = "1*x^5 + 8*x^4 + 2*x^2 + 5";
+
+        System.out.println("firstSinglePolynomialFactors = " + firstSinglePolynomialFactors);
+        System.out.println("secondSinglePolynomialFactors = " + secondSinglePolynomialFactors);
 
         switch (question){
             case 1:
                 System.out.println("Question10: Q1");
-                System.out.println("Please enter the firstSinglePolynomialFactors: ");
-                String firstSinglePolynomialFactors = scanner.next();
-                System.out.println("Please enter the secondSinglePolynomialFactors: ");
-                String secondSinglePolynomialFactors = scanner.next();
                 System.out.println(checkSingleFactorEquality(firstSinglePolynomialFactors,secondSinglePolynomialFactors));
+                break;
             case 2:
                 System.out.println("Question10: Q2");
-                System.out.println("Please enter the thirdSinglePolynomialFactors: ");
-                String thirdSinglePolynomialFactors = scanner.next();
-                System.out.println("Please enter the fourthSinglePolynomialFactors: ");
-                String fourthSinglePolynomialFactors = scanner.next();
-                System.out.println(checkPolynomialEquationsEquality(thirdSinglePolynomialFactors,fourthSinglePolynomialFactors));
+                System.out.println(checkPolynomialEquationsEquality(firstSinglePolynomialFactors,secondSinglePolynomialFactors));
+                break;
             case 3:
                 System.out.println("Question10: Q3");
                 System.out.println(getBiggestExponent("10*x^5 + 8*x^4 + x^2 + 6"));
+                break;
             case 4:
                 System.out.println("Question10: Q4");
+                System.out.println(combinePolynomialEquations(firstSinglePolynomialFactors,secondSinglePolynomialFactors));
+                break;
 
         }
 
