@@ -12,14 +12,22 @@ public class ConvertSinglePolynomialFactorToArray {
     Integer[] singlePolynomialFactorComponents = {DEFAULT_COEFFICIENT, DEFAULT_EXPONENT};
 
     public ConvertSinglePolynomialFactorToArray(String singlePolynomialFactor) {
-        int indexOfExponet = singlePolynomialFactor.indexOf('^');
-        int indexOfMultification = singlePolynomialFactor.indexOf('*');
+        if (singlePolynomialFactor.length() != 1) {
+            int indexOfExponet = singlePolynomialFactor.indexOf('^');
+            int indexOfMultification = singlePolynomialFactor.indexOf('*');
 
-        String coeficientString = singlePolynomialFactor.substring(0, indexOfMultification);
-        String exponetString = singlePolynomialFactor.substring(indexOfExponet + 1, singlePolynomialFactor.length());
+            String coeficientString = singlePolynomialFactor.substring(0, indexOfMultification);
+            String exponetString = singlePolynomialFactor.substring(indexOfExponet + 1, singlePolynomialFactor.length());
 
-        this.coefficient = Integer.valueOf(coeficientString);
-        this.exponent = Integer.valueOf(exponetString);
+            this.coefficient = Integer.valueOf(coeficientString);
+            this.exponent = Integer.valueOf(exponetString);
+        } else {
+            String coeficientString = singlePolynomialFactor.substring(0);
+
+            this.coefficient = Integer.valueOf(coeficientString);
+            this.exponent = 0;
+        }
+
     }
 
     public Integer[] convertToArray() {
