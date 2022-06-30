@@ -24,6 +24,7 @@ public class CheckMultiFactorPolynomialsEquality {
             for (int i = 0; i < polynomialFactorArray1.size(); i++) {
                 Integer[] singleFactor1 = polynomialFactorArray1.get(i);
                 Integer[] singleFactor2 = polynomialFactorArray2.get(i);
+                System.out.println(Arrays.toString(singleFactor2));
                 if (singleFactor1[0] != singleFactor2[0] || singleFactor1[1] != singleFactor2[1]) {
                     return false;
                 }

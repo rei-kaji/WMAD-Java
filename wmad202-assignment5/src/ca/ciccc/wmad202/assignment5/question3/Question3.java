@@ -45,10 +45,12 @@ public class Question3 {
     }
 
     public void question3_3() {
-
+        GetBiggestExponent biggestExponent = new GetBiggestExponent(PolynomialEquation1);
+        biggestExponent.getBiggestExponet();
     }
 
     public void question3_4() {
-
+        Calculator calculator = new Calculator(PolynomialEquation1, PolynomialEquation5);
+        calculator.addResult();
     }
 }
