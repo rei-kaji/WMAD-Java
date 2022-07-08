@@ -1,9 +1,12 @@
 package ca.ciccc.wmad202.lecture.main;
 
 import ca.ciccc.wmad202.lecture.basics.JavaBasics;
+import ca.ciccc.wmad202.lecture.inherit.TestCase;
 import ca.ciccc.wmad202.lecture.oop.DemoStudentExample;
 
 import java.util.Scanner;
+
+import static ca.ciccc.wmad202.lecture.inherit.TestCase.runAllInheritTestScenario;
 
 public class LectureCodeDriver {
     public static void run(){
@@ -32,7 +35,9 @@ public class LectureCodeDriver {
 //        result = JavaBasics.add3(number1, number2);
 //        System.out.println(result);
 
-        DemoStudentExample demo = new DemoStudentExample();
-        System.out.println("Finish Lecture Code!");
+//        DemoStudentExample demo = new DemoStudentExample();
+//        System.out.println("Finish Lecture Code!");
+
+        runAllInheritTestScenario();
     }
 }

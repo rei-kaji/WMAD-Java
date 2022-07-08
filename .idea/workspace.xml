@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f67a4e67-6ce1-4268-be33-90570695f836" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/wmad202-assignment6/src/ca/ciccc/wmad202/assignment6/question0/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-assignment6/src/ca/ciccc/wmad202/assignment6/question1/Cloth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-assignment6/src/ca/ciccc/wmad202/assignment6/question1/Drink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-assignment6/src/ca/ciccc/wmad202/assignment6/question1/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-assignment6/src/ca/ciccc/wmad202/assignment6/question1/Material.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-assignment6/src/ca/ciccc/wmad202/assignment6/question2/IShopingCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-assignment6/src/ca/ciccc/wmad202/assignment6/question2/ShopingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wmad202-lecture-code/src/ca/ciccc/wmad202/lecture/inherit/Colors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wmad202-lecture-code/src/ca/ciccc/wmad202/lecture/inherit/Cube.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wmad202-lecture-code/src/ca/ciccc/wmad202/lecture/inherit/Cuboid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wmad202-lecture-code/src/ca/ciccc/wmad202/lecture/inherit/Cylindrical.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wmad202-lecture-code/src/ca/ciccc/wmad202/lecture/inherit/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wmad202-lecture-code/src/ca/ciccc/wmad202/lecture/inherit/Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wmad202-lecture-code/src/ca/ciccc/wmad202/lecture/inherit/TestCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wmad202-2022/src/ca/ciccc/main/WMAD202Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-2022/src/ca/ciccc/main/WMAD202Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wmad202-assignment6/src/ca/ciccc/wmad202/assignment6/main/Assignment6Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-assignment6/src/ca/ciccc/wmad202/assignment6/main/Assignment6Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wmad202-lecture-code/src/ca/ciccc/wmad202/lecture/main/LectureCodeDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-lecture-code/src/ca/ciccc/wmad202/lecture/main/LectureCodeDriver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
