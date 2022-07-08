@@ -18,8 +18,8 @@ public class WMAD202Driver {
 //        Assignment2Driver.run();
 //        Assignment3Driver.run();
 //        Assignment4Driver.run();
-        Assignment5Driver.run();
-//        Assignment6Driver.run();
+//        Assignment5Driver.run();
+        Assignment6Driver.run();
 //        Assignment7Driver.run();
 //        Assignment8Driver.run();
 //        Assignment9Driver.run();
