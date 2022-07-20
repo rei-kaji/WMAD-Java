@@ -1,4 +1,4 @@
-package ca.ciccc.wmad202.assignment8.question2;
+package ca.ciccc.wmad202.assignment8.question3;
 
 abstract class Shape {
     public Shape(ApplicationDriver.ShapeType shapeType, int[] sides) {
