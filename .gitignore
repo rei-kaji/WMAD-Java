@@ -14,6 +14,8 @@ out/
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
+.idea
+.idea/workspace.xml
 
 ### NetBeans ###
 /nbproject/private/

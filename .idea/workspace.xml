@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f67a4e67-6ce1-4268-be33-90570695f836" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/wmad202-assignment9/src/ca/ciccc/wmad202/assignment9/question1/ConsumerFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-assignment9/src/ca/ciccc/wmad202/assignment9/question1/PredicateFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-assignment9/src/ca/ciccc/wmad202/assignment9/question1/SupplierFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-assignment9/src/ca/ciccc/wmad202/assignment9/question2/CompareLambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-assignment9/src/ca/ciccc/wmad202/assignment9/question2/TestLamda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
