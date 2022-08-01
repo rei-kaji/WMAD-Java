@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f67a4e67-6ce1-4268-be33-90570695f836" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wmad202-assignment10/src/ca/ciccc/wmad202/assignment10/question2/Question2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wmad202-assignment10/src/ca/ciccc/wmad202/assignment10/question3/Predicate1Exception.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wmad202-assignment10/src/ca/ciccc/wmad202/assignment10/question3/Predicate2Exception.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wmad202-assignment10/src/ca/ciccc/wmad202/assignment10/question3/Question3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wmad202-assignment10/src/ca/ciccc/wmad202/assignment10/main/Assignment10Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-assignment10/src/ca/ciccc/wmad202/assignment10/main/Assignment10Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wmad202-assignment10/src/ca/ciccc/wmad202/assignment10/question1/Question1.java" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-assignment10/src/ca/ciccc/wmad202/assignment10/question1/Question1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,9 +82,9 @@
       <recent name="ca.ciccc.wmad202.assignment3.question1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestLamda">
-    <configuration name="ConsumerFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.ciccc.wmad202.assignment9.question1.ConsumerFunction" />
+  <component name="RunManager" selected="Application.Question2">
+    <configuration name="PredicateFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.ciccc.wmad202.assignment9.question1.PredicateFunction" />
       <module name="wmad202-assignment9" />
       <extension name="coverage">
         <pattern>
@@ -90,12 +96,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredicateFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.ciccc.wmad202.assignment9.question1.PredicateFunction" />
-      <module name="wmad202-assignment9" />
+    <configuration name="Question1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.ciccc.wmad202.assignment10.question1.Question1" />
+      <module name="wmad202-assignment10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.ciccc.wmad202.assignment9.question1.*" />
+          <option name="PATTERN" value="ca.ciccc.wmad202.assignment10.question1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Question2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.ciccc.wmad202.assignment10.question2.Question2" />
+      <module name="wmad202-assignment10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.ciccc.wmad202.assignment10.question2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,26 +148,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ca.ciccc.wmad202.assignment8.question4.ApplicationDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.ciccc.wmad202.assignment8.question4.ApplicationDriver" />
-      <module name="wmad202-assignment8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.ciccc.wmad202.assignment8.question4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.TestLamda" />
+        <item itemvalue="Application.Question2" />
+        <item itemvalue="Application.Question1" />
         <item itemvalue="Application.PredicateFunction" />
         <item itemvalue="Application.SupplierFunction" />
-        <item itemvalue="Application.ConsumerFunction" />
-        <item itemvalue="Application.ca.ciccc.wmad202.assignment8.question4.ApplicationDriver" />
       </list>
     </recent_temporary>
   </component>

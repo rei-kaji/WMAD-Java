@@ -1,19 +1,19 @@
-package ca.ciccc.wmad202.assignment10.question1;
+package ca.ciccc.wmad202.assignment10.question2;
 
-public class Question1 {
+public class Question2 {
     class ExceptionA1 extends Exception{
         ExceptionA1(String message){
             super(message);
         }
     }
 
-    class ExceptionA2 extends Exception{
+    class ExceptionA2 extends ExceptionA1 {
         ExceptionA2(String message){
             super(message);
         }
     }
 
-    class ExceptionA3 extends Exception{
+    class ExceptionA3 extends ExceptionA2 {
         ExceptionA3(String message){
             super(message);
         }
@@ -57,32 +57,22 @@ public class Question1 {
     }
 
     public void testExceptions1(){
-
-        //This method is supposed to handle any exceptions that could
-        //potentially raised.
-        //Please add proper code to fix the error
-        //
-
-        Question1.ClassA classA = new ClassA();
-        try{
-            classA.methodA1();
+        Question2.ClassA a = new ClassA();
+        try {
+            a.methodA1();
         } catch (ExceptionA1 e) {
             System.out.println(e.getMessage());
         }
-
     }
 
     public void testExceptions2(){
-        //This method is supposed to handle any exceptions that could potentially raised.
-        //Please add proper code to fix the errors
-        //Also, Add code to inform the user about the total number of exceptions that have raised.
 
-        Question1.ClassA classA = new ClassA();
+        Question2.ClassA classA = new ClassA();
         int exceptionCount=0;
+
         try{
             classA.methodA1();
-        }
-        catch (ExceptionA1 e) {
+        } catch (ExceptionA1 e) {
             exceptionCount++;
             System.out.println(e.getMessage());
         }
@@ -99,13 +89,14 @@ public class Question1 {
             System.out.println(e.getMessage());
         }
 
-        System.out.println("Number of errors: " + exceptionCount);
+        System.out.println("Total number of exceptions: "+exceptionCount);
+
     }
 
 
     public static void main(String[] args){
 
-        Question1 test = new Question1();
+        Question2 test = new Question2();
         test.testExceptions1();
         test.testExceptions2();
     }
