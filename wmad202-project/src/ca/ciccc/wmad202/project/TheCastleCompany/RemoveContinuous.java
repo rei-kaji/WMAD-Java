@@ -6,15 +6,18 @@ public class RemoveContinuous {
     public static int[] removeContinuous(int[] sequence) {
         ArrayList<Integer> removedList = new ArrayList<>();
 
-        // 離れた場所で連続している数字があった場合に正しい結果にならないため修正する
-        for (int i : sequence) {
-            if (!removedList.contains(i)) {
-                removedList.add(i);
+        removedList.add(sequence[0]);
+        for (int j = 1; j < sequence.length; j++) {
+            // Don't add the continuous
+            if (sequence[j] == sequence[j - 1]) {
+                continue;
+            } else {
+                removedList.add(sequence[j]);
             }
         }
 
+        // Change from ArrayList<Integer] to int[]
         int[] removedContinuous = new int[removedList.size()];
-
         for (int i = 0; i < removedList.size();i++) {
             removedContinuous[i] = removedList.get(i);
         }

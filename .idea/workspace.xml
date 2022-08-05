@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f67a4e67-6ce1-4268-be33-90570695f836" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TheTransformationCompany/Compare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TheTransformationCompany/CourageCompare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TheTransformationCompany/MyCompany.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TheTransformationCompany/SkillCompare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TheTransformationCompany/StrengthCompare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TheTransformationCompany/Transformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wmad202-project-problem1/src/ca/ciccc/wmad202/project/problem1/TextFolder/castles.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TextFolder/castles.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wmad202-project-problem1/src/ca/ciccc/wmad202/project/problem1/TextFolder/transformers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TextFolder/transformers.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wmad202-project-problem1/src/ca/ciccc/wmad202/project/problem1/main/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/main/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wmad202-project-problem1/src/ca/ciccc/wmad202/project/problem1/theCastleCompany/MyCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TheCastleCompany/MyCompany.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wmad202-project-problem1/src/ca/ciccc/wmad202/project/problem1/theCastleCompany/RemoveContinuous.java" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TheCastleCompany/RemoveContinuous.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wmad202-project-problem1/src/ca/ciccc/wmad202/project/problem1/theCastleCompany/Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TheCastleCompany/Sequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wmad202-project-problem1/src/ca/ciccc/wmad202/project/problem1/theCastleCompany/castles.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wmad202-project-problem1/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-project/src/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wmad202-project-problem1/wmad202-project-problem1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-project/wmad202-project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TextFolder/castles.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TextFolder/castles.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TheCastleCompany/MyCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TheCastleCompany/MyCompany.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TheCastleCompany/RemoveContinuous.java" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TheCastleCompany/RemoveContinuous.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TheCastleCompany/Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TheCastleCompany/Sequence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +83,7 @@
       <recent name="ca.ciccc.wmad202.assignment3.question1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyCompany">
+  <component name="RunManager" selected="Application.ca.ciccc.wmad202.project.TheCastleCompany.MyCompany">
     <configuration name="MyCompany" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.ciccc.wmad202.project.TheTransformationCompany.MyCompany" />
       <module name="wmad202-project" />
@@ -163,8 +151,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyCompany" />
         <item itemvalue="Application.ca.ciccc.wmad202.project.TheCastleCompany.MyCompany" />
+        <item itemvalue="Application.MyCompany" />
         <item itemvalue="Application.TestLamda" />
         <item itemvalue="Application.Question2" />
         <item itemvalue="Application.Question1" />
@@ -198,8 +186,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TheTransformationCompany/MyCompany.java</url>
-          <line>139</line>
-          <option name="timeStamp" value="14" />
+          <line>140</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TheTransformationCompany/MyCompany.java</url>
+          <line>124</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TheCastleCompany/RemoveContinuous.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

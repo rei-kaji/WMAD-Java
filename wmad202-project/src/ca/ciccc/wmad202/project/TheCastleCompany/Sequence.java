@@ -9,6 +9,7 @@ public class Sequence {
         this.sequence = RemoveContinuous.removeContinuous(sequence);
     }
 
+    // return the number of Castle
     public int getNumberOfCastle() {
         int castle = 0;
         castle += getPeak(this.sequence);
