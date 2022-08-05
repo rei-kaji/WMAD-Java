@@ -1,4 +1,4 @@
-package ca.ciccc.wmad202.project.problem1.theCastleCompany;
+package ca.ciccc.wmad202.project.TheCastleCompany;
 
 import java.util.ArrayList;
 
@@ -30,7 +30,6 @@ public class Sequence {
                 }
             }
         }
-        System.out.println("peak: " + peak);
 
         return peak;
     }
@@ -48,7 +47,6 @@ public class Sequence {
                 }
             }
         }
-        System.out.println("valley: " + valley);
         return valley;
     }
 }

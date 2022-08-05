@@ -2,18 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f67a4e67-6ce1-4268-be33-90570695f836" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/wmad202-project-problem1/src/ca/ciccc/wmad202/project/problem1/TextFolder/castles.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-project-problem1/src/ca/ciccc/wmad202/project/problem1/TextFolder/transformers.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-project-problem1/src/ca/ciccc/wmad202/project/problem1/main/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-project-problem1/src/ca/ciccc/wmad202/project/problem1/theCastleCompany/MyCompany.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-project-problem1/src/ca/ciccc/wmad202/project/problem1/theCastleCompany/RemoveContinuous.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-project-problem1/src/ca/ciccc/wmad202/project/problem1/theCastleCompany/Sequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-project-problem1/src/ca/ciccc/wmad202/project/problem1/theCastleCompany/castles.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-project-problem1/src/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-project-problem1/wmad202-project-problem1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-project-problem2/wmad202-project-problem2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TheTransformationCompany/Compare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TheTransformationCompany/CourageCompare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TheTransformationCompany/MyCompany.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TheTransformationCompany/SkillCompare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TheTransformationCompany/StrengthCompare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TheTransformationCompany/Transformer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wmad202-project-problem1/src/ca/ciccc/wmad202/project/problem1/TextFolder/castles.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TextFolder/castles.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wmad202-project-problem1/src/ca/ciccc/wmad202/project/problem1/TextFolder/transformers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TextFolder/transformers.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wmad202-project-problem1/src/ca/ciccc/wmad202/project/problem1/main/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/main/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wmad202-project-problem1/src/ca/ciccc/wmad202/project/problem1/theCastleCompany/MyCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TheCastleCompany/MyCompany.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wmad202-project-problem1/src/ca/ciccc/wmad202/project/problem1/theCastleCompany/RemoveContinuous.java" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TheCastleCompany/RemoveContinuous.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wmad202-project-problem1/src/ca/ciccc/wmad202/project/problem1/theCastleCompany/Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TheCastleCompany/Sequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wmad202-project-problem1/src/ca/ciccc/wmad202/project/problem1/theCastleCompany/castles.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wmad202-project-problem1/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-project/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wmad202-project-problem1/wmad202-project-problem1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-project/wmad202-project.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,25 +68,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "openjdk-18",
-    "last_opened_file_path": "/Users/kajiwararei/Desktop/Code/Java/WMAD202-Structure/wmad202-project-problem1/src/ca/ciccc/wmad202/project/problem1/theCastleCompany",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "Errors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kajiwararei/Desktop/Code/Java/WMAD202-Structure/wmad202-project-problem1/src/ca/ciccc/wmad202/project/problem1/theCastleCompany&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/wmad202-project-problem1/src/ca/ciccc/wmad202/project/problem1/theCastleCompany" />
       <recent name="$PROJECT_DIR$/wmad202-assignment8/src/ca/ciccc/wmad202/assignment8/question3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TextFolder" />
       <recent name="$PROJECT_DIR$/wmad202-assignmet1/src" />
       <recent name="$PROJECT_DIR$/wmad202-2022/src" />
     </key>
@@ -91,24 +97,11 @@
   </component>
   <component name="RunManager" selected="Application.MyCompany">
     <configuration name="MyCompany" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.ciccc.wmad202.project.problem1.theCastleCompany.MyCompany" />
-      <module name="wmad202-project-problem1" />
+      <option name="MAIN_CLASS_NAME" value="ca.ciccc.wmad202.project.TheTransformationCompany.MyCompany" />
+      <module name="wmad202-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.ciccc.wmad202.project.problem1.theCastleCompany.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PredicateFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.ciccc.wmad202.assignment9.question1.PredicateFunction" />
-      <module name="wmad202-assignment9" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.ciccc.wmad202.assignment9.question1.*" />
+          <option name="PATTERN" value="ca.ciccc.wmad202.project.TheTransformationCompany.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,13 +148,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ca.ciccc.wmad202.project.TheCastleCompany.MyCompany" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.ciccc.wmad202.project.TheCastleCompany.MyCompany" />
+      <module name="wmad202-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.ciccc.wmad202.project.TheCastleCompany.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.MyCompany" />
+        <item itemvalue="Application.ca.ciccc.wmad202.project.TheCastleCompany.MyCompany" />
         <item itemvalue="Application.TestLamda" />
         <item itemvalue="Application.Question2" />
         <item itemvalue="Application.Question1" />
-        <item itemvalue="Application.PredicateFunction" />
       </list>
     </recent_temporary>
   </component>
@@ -186,5 +192,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TheTransformationCompany/MyCompany.java</url>
+          <line>139</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

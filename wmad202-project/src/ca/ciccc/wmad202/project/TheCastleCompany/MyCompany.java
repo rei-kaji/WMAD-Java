@@ -1,4 +1,4 @@
-package ca.ciccc.wmad202.project.problem1.theCastleCompany;
+package ca.ciccc.wmad202.project.TheCastleCompany;
 
 import java.io.*;
 import java.util.Arrays;
@@ -14,9 +14,8 @@ public class MyCompany {
     // ファイルから配列を取得して、Sequenceに投げる処理をかく
     public static void main(String[] args) {
         HashMap<String[], Integer> result = new HashMap<>();
-        int i = 0;
         try {
-            Scanner in = new Scanner(new File("./wmad202-project-problem1/src/ca/ciccc/wmad202/project/problem1/TextFolder/castles.txt"));
+            Scanner in = new Scanner(new File("./wmad202-project/src/ca/ciccc/wmad202/project/TextFolder/castles.txt"));
             while (in.hasNext()) {
                 String input = in.next();
                 String body = input.replace("[", "").replace("]", "");

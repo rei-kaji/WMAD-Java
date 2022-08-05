@@ -1,7 +1,6 @@
-package ca.ciccc.wmad202.project.problem1.theCastleCompany;
+package ca.ciccc.wmad202.project.TheCastleCompany;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class RemoveContinuous {
     public static int[] removeContinuous(int[] sequence) {
