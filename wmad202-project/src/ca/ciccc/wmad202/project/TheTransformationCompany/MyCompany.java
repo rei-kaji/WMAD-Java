@@ -10,6 +10,8 @@ import java.util.*;
 // 3: The limit of member is three.
 // The name don't have to have space.
 public class MyCompany {
+
+
     public static void main(String[] args) {
         HashMap<Integer, String[]> Deception = new HashMap<>();
         HashMap<Integer, String[]> Autobot = new HashMap<>();
@@ -231,7 +233,6 @@ public class MyCompany {
                     System.out.println("The surviving members of the losing team: (Decepticons): " + str.getName());
                 }
             }
-            battleCount = 0;
         }
 
 
