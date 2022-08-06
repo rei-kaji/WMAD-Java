@@ -183,8 +183,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TheTransformationCompany/MyCompany.java</url>
-          <line>144</line>
-          <option name="timeStamp" value="15" />
+          <line>94</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TheTransformationCompany/MyCompany.java</url>
+          <line>110</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

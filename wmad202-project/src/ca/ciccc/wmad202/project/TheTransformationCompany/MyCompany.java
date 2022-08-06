@@ -11,6 +11,54 @@ import java.util.*;
 // The name don't have to have space.
 public class MyCompany {
 
+    public class Adjust {
+        // Adjust the sequence style
+        public static ArrayList<String[]> adjust(HashMap<Integer, String[]> a, int b) {
+            ArrayList<String[]> returnArrayList = new ArrayList<>();
+            for (int i = 0; i < b; i++) {
+                returnArrayList.add(a.get(i));
+                System.out.println("The battle " + i + " team(Deception): " + Arrays.toString(a.get(i)));
+            }
+            return returnArrayList;
+        };
+
+        // Separate each Transformer
+        public static ArrayList<String[]> separate(String[] s) {
+            ArrayList<String[]> returnArrayList = new ArrayList<>();
+
+            returnArrayList.add(Arrays.copyOfRange(s, 0, 10));
+            if (s.length > 10) {
+                returnArrayList.add(Arrays.copyOfRange(s, 10, 20));
+                if (s.length > 20) {
+                    returnArrayList.add(Arrays.copyOfRange(s, 20, 30));
+                }
+            }
+            return returnArrayList;
+        }
+
+        public static HashMap<String, Boolean> checkName(boolean decepWin, boolean autoWin) {
+            HashMap<String, Boolean> returnCheckName = new HashMap<>();
+            returnCheckName.put("end", false);
+            returnCheckName.put("autoWin", false);
+            returnCheckName.put("decepWin", false);
+            returnCheckName.put("break", false);
+            if (decepWin && autoWin) {
+                returnCheckName.replace("end",true);
+                returnCheckName.replace("breakbreak",true);
+            } else if (decepWin && !autoWin) {
+                returnCheckName.put("autoWin", false);
+                returnCheckName.put("decepWin", true);
+                returnCheckName.replace("end",true);
+                returnCheckName.replace("breakbreak",true);
+            } else if (!decepWin && autoWin) {
+                returnCheckName.put("autoWin", true);
+                returnCheckName.put("decepWin", false);
+                returnCheckName.replace("end",true);
+                returnCheckName.replace("breakbreak",true);
+            }
+            return returnCheckName;
+        }
+    }
 
     public static void main(String[] args) {
         HashMap<Integer, String[]> Deception = new HashMap<>();
@@ -39,20 +87,13 @@ public class MyCompany {
                 }
             }
         } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
+            System.out.println(e);
         }
 
 
         // Adjust the sequence style
-        for (int i = 0; i < countDeception; i++) {
-            DeceptionsList.add(Deception.get(i));
-            System.out.println("The battle " + i + " team(Deception): " + Arrays.toString(Deception.get(i)));
-        }
-
-        for (int i = 0; i < countAutobot; i++) {
-            AutobotsList.add(Autobot.get(i));
-            System.out.println("The battle " + i + " team(Autobot): " + Arrays.toString(Autobot.get(i)));
-        }
+        DeceptionsList = Adjust.adjust(Deception, countDeception);
+        AutobotsList = Adjust.adjust(Autobot, countAutobot);
 
         // Start Battle
         for (int i = 0; i < DeceptionsList.size(); i++) {
@@ -64,21 +105,8 @@ public class MyCompany {
             String[] strDep = DeceptionsList.get(i);
 
             // Separate each Transformer
-            dep.add(Arrays.copyOfRange(strDep, 0, 10));
-            if (strDep.length > 10) {
-                dep.add(Arrays.copyOfRange(strDep, 10, 20));
-                if (strDep.length > 20) {
-                    dep.add(Arrays.copyOfRange(strDep, 20, 30));
-                }
-            }
-
-            aut.add(Arrays.copyOfRange(strAut, 0, 10));
-            if (strAut.length > 10) {
-                aut.add(Arrays.copyOfRange(strAut, 10, 20));
-                if (strAut.length > 20) {
-                    aut.add(Arrays.copyOfRange(strAut, 20, 30));
-                }
-            }
+            dep = Adjust.separate(strDep);
+            aut = Adjust.separate(strAut);
 
             // Adjust the Transformer style
             for (String[] line : dep) {
@@ -109,11 +137,19 @@ public class MyCompany {
                 battleCount++;
                 Transformer deceptionRobot;
                 Transformer autobotRobot;
-                CourageCompare courageCompare = new CourageCompare();
+                Compare courageCompare = (int a1, int a2) -> {
+                    int result = 0;
+                    if (a1 - a2 >= 4) {
+                        return 1;
+                    } else if (a2 - a1 >= 4) {
+                        return 2;
+                    }
+                    return result;
+                };
                 int courageResult = 0;
-                CourageCompare strengthCompare = new CourageCompare();
+                Compare strengthCompare = new StrengthCompare();
                 int strengthResult = 0;
-                CourageCompare skillCompare = new CourageCompare();
+                Compare skillCompare = new SkillCompare();
                 int skillResult = 0;
                 int DeceptionOrverAllRating = 0;
                 int AutobotOverAllRating = 0;
@@ -140,16 +176,15 @@ public class MyCompany {
                 }
 
                 // Check the name (Optimus Prime or Predaking)
-                if (decepWin && autoWin) {
-                    end = true;
-                    break;
-                } else if (decepWin && !autoWin) {
-                    autoWin = false;
-                    end = true;
-                    break;
-                } else if (!decepWin && autoWin) {
-                    decepWin = false;
-                    end = true;
+                // 配列を返して、その値をend,autwin,decepwinにそれぞれ入れる
+                // かつtrueが帰ってきたらbreakする
+                HashMap<String, Boolean> checkNameResult = new HashMap<>();
+                checkNameResult = Adjust.checkName(decepWin, autoWin);
+                // trueの場合にbreakと値の更新する
+                if (checkNameResult.get("break")) {
+                    end = checkNameResult.get("end");
+                    autoWin = checkNameResult.get("autoWin");
+                    decepWin = checkNameResult.get("decepWin");
                     break;
                 }
 
@@ -234,10 +269,6 @@ public class MyCompany {
                 }
             }
         }
-
-
-
-
     }
 
 
