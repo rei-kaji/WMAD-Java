@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f67a4e67-6ce1-4268-be33-90570695f836" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TextFolder/castles.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TextFolder/castles.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TheCastleCompany/MyCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TheCastleCompany/MyCompany.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TheCastleCompany/RemoveContinuous.java" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TheCastleCompany/RemoveContinuous.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TheCastleCompany/Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TheCastleCompany/Sequence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,11 +189,6 @@
           <url>file://$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TheTransformationCompany/MyCompany.java</url>
           <line>124</line>
           <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/wmad202-project/src/ca/ciccc/wmad202/project/TheCastleCompany/RemoveContinuous.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
